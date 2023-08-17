@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> -->
+</head>
+<body>
+    <!-- header section start -->
+        <header>
+            <div class="part_one">
+                <div class="part">
+                <img src="./images/delivery.png" alt="image1" width="40px" height="40px"><span>Shop Now</span>
+                </div>
+                <ul>
+                    <li><a href="#color1">Home</a></li>
+                    <li><a href="#mobiles-data">Mobiles</a></li>
+                    <li><a href="#laptop-data">Laptops</a></li>
+                    <li><a href="#dress-data">Jewellery</a></li>
+                </ul>
+                <a href="login.html"><button id="btn1">Login</button></a>
+            </div>
+
+            <div class="header_two">
+            <div id="internal">
+                <input type="searchbar" id="search_one">
+                <button id="btn"><img id="id1" src="./images/search.png"></button>
+            </div>
+
+                <a href="#cartList"><img id="img1" class="cart-icon" src="./images/icons8-cart-24.png"></a>
+                <div id="click_me"></div>
+              
+            </div>
+        </header>
+    <!-- header section end -->
+    
+    <!-- swiper section -->
+    <div id="color1">
+    <div class="slider-one" style="width:600px">
+        <img class="mySlides" src="./images/s5.jpeg" style="width:90vw;height:300px">
+        <img class="mySlides" src="./images/s2.jpeg" style="width:90vw;height:300px">
+        <img class="mySlides" src="./images/s4.jpeg" style="width:90vw;height:300px">
+    </div>
+    </div>
+    <!-- feature section start -->
+    <!-- feature section end -->
+    <!-- category section starts -->
+    <section class="category" id="category">
+        <div class="product-list" id="mobiles-data">
+            <h2>Mobiles List</h2>
+        </div>
+        <div class="product-list" id="laptop-data">
+            <h2>Laptops List</h2>
+        </div>
+        <div class="product-list" id="dress-data">
+            <h2>Dress List</h2>
+        </div>
+
+        <!-- div to display errors -->
+        <div id="errorDisplay"></div>
+
+        <!-- cart section -->
+
+        <div class="cart-section" id="cart">
+            <h2>Your Cart</h2>>
+            <div id="cartList" class="cart-list">
+                
+            </div>
+            <div id="total" class="cart-total">Total:$0:00</div>
+        </div>
+    </section>
+
+    <script src="script1.js"></script>
+
+
+
+   
+    <!-- <footer class="text-center bg-light text-muted">
+    
+    <section class="d-flex justify-content-evenly p-4 border-bottom">
+      <div class="me-5">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <div class="d-flex">
+        <a href="" class="me-4 text-reset">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+            <i class="bi bi-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+            <i class="bi bi-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+            <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+            <i class="bi bi-github"></i>
+        </a>
+      </div>
+    </section>
+  
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase text-center fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Shop Now
+            </h6>
+            <p>
+              Here you can shop unlimitedly with feasible prices.Shop Now provides you flexible facilities.  
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4 ">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Mobiles</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Laptops</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Jewellery</a>
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Help</a>
+            </p>
+          </div>
+          
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+           
+            <h6 class="text-uppercase fw-bold mb-4 text-center">Contact</h6>
+            <p><i class="bi bi-house-door-fill"></i>Kphb,Kukatpally 500072</p>
+            <p>
+                <i class="bi bi-envelope-fill"></i>
+              shopnow@gmail.com
+            </p>
+            <p><i class="bi bi-telephone-fill"></i> + 91 xxxxx xxxxx</p>
+            <p><i class="bi bi-telephone-fill"></i> + 91 xxxxx xxxxx</p>
+          </div>
+
+        </div>
+       
+      </div>
+    
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2023 Copyright:
+    </div>
+  </footer> -->
+</body>
+</html>
